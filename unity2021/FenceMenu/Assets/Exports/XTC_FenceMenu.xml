@@ -23,6 +23,12 @@
         <Image active="false" source="bg.png"/>
         <Video active="true" source="bg.mp4"/>
       </Background>
+      <Content bg="content-bg.png">
+        <SlotAnchor horizontal="center" vertical="center" marginH="0" marginV="0" width="1024" height="768"/>
+        <CloseButton image="btnClose.png">
+          <Anchor horizontal="center" vertical="center" marginH="0" marginV="-440" width="128" height="64"/>
+        </CloseButton>
+      </Content>
       <DecalS>
         <Decal image="title.png">
           <Anchor horizontal="center" vertical="top" marginH="0" marginV="73" width="736" height="195"/>
@@ -42,6 +48,11 @@
                 <Parameter key="source" value="" type="string"/>
                 <Parameter key="uri" value="" type="string"/>
                 <Parameter key="delay" value="0" type="float"/>
+              </Parameters>
+            </Subject>
+            <Subject message="/XTC/FenceMenu/OpenContent">
+              <Parameters>
+                <Parameter key="uid" value="default" type="string"/>
               </Parameters>
             </Subject>
           </SubjectS>

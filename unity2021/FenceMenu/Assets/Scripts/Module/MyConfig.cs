@@ -34,6 +34,16 @@ namespace XTC.FMP.MOD.FenceMenu.LIB.Unity
             public Video video { get; set; } = new Video();
         }
 
+        public class Content
+        {
+            [XmlAttribute("bg")]
+            public string bg { get; set; } = "";
+            [XmlElement("SlotAnchor")]
+            public Anchor slotAnchor { get; set; } = new Anchor();
+            [XmlElement("CloseButton")]
+            public UiElement btnClose { get; set; } = new UiElement();
+        }
+
         public class Cell
         {
             [XmlAttribute("image")]
@@ -53,6 +63,8 @@ namespace XTC.FMP.MOD.FenceMenu.LIB.Unity
 
             [XmlElement("Background")]
             public Background background { get; set; } = new Background();
+            [XmlElement("Content")]
+            public Content content { get; set; } = new Content();
 
             [XmlArray("DecalS"), XmlArrayItem("Decal")]
             public UiElement[] decalS { get; set; } = new UiElement[0];
