@@ -1,0 +1,19 @@
+
+/_dist_/
+/_build_/
+/FenceMenu/Assets/TextMesh Pro/
+/FenceMenu/Assets/TextMesh Pro.meta
+/FenceMenu/Assets/Plugins/
+/FenceMenu/Assets/Plugins.meta
+/FenceMenu/Assets/3rd/
+/FenceMenu/Assets/3rd.meta
+/FenceMenu/Library/
+/FenceMenu/obj/
+/FenceMenu/Logs/
+/FenceMenu/Temp/
+/FenceMenu/UserSettings/
+/FenceMenu/*.sln
+/FenceMenu/*.csproj
+/FenceMenu/.vsconfig
+/FenceMenu/.vs/
+/.UNITY_HOME.env
